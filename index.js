@@ -7,7 +7,7 @@ const srv =  http.createServer((req,res) => //crates server wich recieves reques
     console.log("METHOD:", req.method); //request method  
     console.log("HEADERS:", req.headers); // request headers
     console.log("HTTP VERSION:", req.httpVersion); // request http version  
-
+    
 
     if(req.method === "POST")// if method is POST
     {
